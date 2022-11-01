@@ -12,6 +12,8 @@ import org.im.java.jdbc.DataSource;
 import org.im.java.jdbc.Database;
 import org.im.java.jdbc.MySqlDataSource;
 import org.im.java.models.Candidat;
+import org.im.java.models.Quiz;
+import org.im.java.models.Test;
 
 public class TestAction {
 	private TestService service;
@@ -33,16 +35,19 @@ public class TestAction {
 		return service.getAllCondidat();
 	}
 
-	public int addTest(Candidat user) {
-		return service.addCandidat(user);
+	public int addTest(Test test) {
+		return service.addTest(test);
 	}
 
-	public List<Candidat> listTest() {
-		return service.getAllCondidat();
+	public List<Test> listTest() {
+		return service.getAllTest();
 	}
 
 	public List<Candidat> passerTest() {
 		return service.getAllCondidat();
 	}
 
+	public List<Quiz> listQuiz() {
+		return service.listAll();
+	}
 }

@@ -81,6 +81,9 @@ public class Test {
 	public void setCandidat(Candidat candidat) {
 		this.candidat = candidat;
 	}
+	public String toJson() {
+		return "{ \"id\" :" +id+", \"date\" : \""+ date+"\", \"score\" : \""+score+"\", \"sujet\" : \""+ sujet+"\"}";
+	}
 	
 	
 

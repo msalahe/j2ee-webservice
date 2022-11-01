@@ -3,16 +3,21 @@ package org.im.java.buisiness;
 import java.util.List;
 
 import org.im.java.dao.CandidatDao;
+import org.im.java.dao.QuizDao;
+import org.im.java.dao.QuizDaoJson;
 import org.im.java.dao.TestDao;
 import org.im.java.models.Candidat;
+import org.im.java.models.Quiz;
 import org.im.java.models.Test;
 
 public class TestServiceDefault implements TestService {
     private CandidatDao candidatDao;
     private TestDao testDao;
+    private QuizDao quizDao;
 	public TestServiceDefault(CandidatDao candidatDao,TestDao testDao) {
         this.candidatDao = candidatDao;
         this.testDao = testDao;
+        this.quizDao  = new QuizDaoJson();
 	}
 
 	@Override
@@ -49,6 +54,12 @@ public class TestServiceDefault implements TestService {
 	public boolean updateTest(int id, Test test) {
 		// TODO Auto-generated method stub
 		return false;
+	}
+
+	@Override
+	public List<Quiz> listAll() {
+		// TODO Auto-generated method stub
+		return quizDao.list();
 	}
 
 }

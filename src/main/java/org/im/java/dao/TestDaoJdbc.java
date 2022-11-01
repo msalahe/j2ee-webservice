@@ -10,7 +10,7 @@ import org.im.java.models.Test;
 
 public class TestDaoJdbc implements TestDao {
 	private Database db;
-	private String tablename = "";
+	private String tablename = "quiz";
 
 	public TestDaoJdbc(Database db) {
 		this.db = db;
@@ -18,8 +18,7 @@ public class TestDaoJdbc implements TestDao {
 
 	@Override
 	public int insert(Test test) {
-		// TODO Auto-generated method stub
-		return db.insert(tablename,listAll().size()+1 ,test.getDate(), test.getScore(), 0, test.getCandidat().getId());
+		return db.insert(tablename,listAll().size()+1 ,test.getSujet(), test.getDate(), 0, test.getCandidat().getId());
 	}
 
 	@Override
