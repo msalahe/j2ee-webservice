@@ -60,6 +60,7 @@ public class TestController extends HttpServlet {
 			} else if (req.getRequestURI().endsWith("/listTest")) {
 				List<Test> test = action.listTest();
 				resp.getWriter().print(JSONMapper.getTest(test));
+				
 			}
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
