@@ -82,7 +82,7 @@ public class Test {
 		this.candidat = candidat;
 	}
 	public String toJson() {
-		return "{ \"id\" :" +id+", \"date\" : \""+ date+"\", \"score\" : \""+score+"\", \"sujet\" : \""+ sujet+"\"}";
+		return "{ \"id\" :" +id+", \"date\" : \""+ date+"\", \"score\" : \""+score+"\", \"sujet\" : \""+ sujet+"\", \"candidat\" : \""+candidat.getId()+ "\"}";
 	}
 	
 	
