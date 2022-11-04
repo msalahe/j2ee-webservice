@@ -1,5 +1,6 @@
 package org.im.java.buisiness;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.im.java.dao.CandidatDao;
@@ -11,13 +12,14 @@ import org.im.java.models.Quiz;
 import org.im.java.models.Test;
 
 public class TestServiceDefault implements TestService {
-    private CandidatDao candidatDao;
-    private TestDao testDao;
-    private QuizDao quizDao;
-	public TestServiceDefault(CandidatDao candidatDao,TestDao testDao) {
-        this.candidatDao = candidatDao;
-        this.testDao = testDao;
-        this.quizDao  = new QuizDaoJson();
+	private CandidatDao candidatDao;
+	private TestDao testDao;
+	private QuizDao quizDao;
+
+	public TestServiceDefault(CandidatDao candidatDao, TestDao testDao) {
+		this.candidatDao = candidatDao;
+		this.testDao = testDao;
+		this.quizDao = new QuizDaoJson();
 	}
 
 	@Override
@@ -58,8 +60,21 @@ public class TestServiceDefault implements TestService {
 
 	@Override
 	public List<Quiz> listAll() {
-		// TODO Auto-generated method stub
-		return quizDao.list();
+		List<Quiz> quizTrier = quizDao.list();
+		List<Quiz> quizFinal = new ArrayList<>();
+		int max = 20;
+		int min = 0;
+	      System.out.println(quizTrier.size());
+		for (int i = 0; i < 9; i++) {
+			 int random_int = (int)Math.floor(Math.random()*(max-min+1)+min);
+			 Quiz q = quizTrier.get(random_int);
+			 quizFinal.add(q);
+			 System.out.println(q.getExercice());
+			 quizTrier.remove(q);
+			 max--;
+
+		}
+		return quizFinal;
 	}
 
 }

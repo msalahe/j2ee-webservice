@@ -13,7 +13,7 @@ public class Test {
 		this.date = date;
 		this.sujet = sujet;
 		this.score = score;
-		this.candidat = new Candidat();
+		this.candidat = new Candidat(candidat);
 	}
 	public Test(String... row) {
 		super();

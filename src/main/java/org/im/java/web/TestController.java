@@ -1,6 +1,7 @@
 package org.im.java.web;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.im.java.actions.TestAction;
@@ -33,14 +34,15 @@ public class TestController extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		try {
-			System.out.println(req.getRequestURI());
 			if (req.getRequestURI().endsWith("/saveuser")) {
 				String nom = req.getParameter("nom");
 				String prenom = req.getParameter("prenom");
-				String date_naissance = req.getParameter("date_naissance");
-				Candidat cn = new Candidat(0, prenom, nom, date_naissance);
+				String idC = req.getParameter("idC");
+
+				Candidat cn = new Candidat(0, prenom, nom, idC);
 				System.out.println(cn.toJson());
 				action.addUser(cn);
+				resp.getWriter().print(cn.toJson());
 
 			} else if (req.getRequestURI().endsWith("/listusers")) {
 				List<Candidat> candidats = action.listCandidat();
@@ -52,10 +54,19 @@ public class TestController extends HttpServlet {
 
 			} else if (req.getRequestURI().endsWith("/addQuiz")) {
 				String date = req.getParameter("date");
+				System.out.println("date "+date);
 				String sujet = req.getParameter("sujet");
+				System.out.println("sujet "+sujet);
+
 				int idC = Integer.parseInt(req.getParameter("idC"));
+				System.out.println("idC "+req.getParameter("idC"));
+
 				Test test = new Test(0, date, sujet, 0, idC);
 				action.addTest(test);
+				List<Test> tests = new ArrayList<>();
+				tests.add(test);
+				resp.getWriter().print(JSONMapper.getTest(tests));
+
 
 			} else if (req.getRequestURI().endsWith("/listTest")) {
 				List<Test> test = action.listTest();
@@ -63,7 +74,7 @@ public class TestController extends HttpServlet {
 				
 			}
 		} catch (Exception e) {
-			System.out.println(e.getMessage());
+			System.out.println("error " +e.getMessage());
 
 		}
 
