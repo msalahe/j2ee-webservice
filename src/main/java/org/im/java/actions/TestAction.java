@@ -50,4 +50,10 @@ public class TestAction {
 	public List<Quiz> listQuiz() {
 		return service.listAll();
 	}
+	public void addQuiz(String data) {
+		service.add(data);
+	}
+	public String send(int id) {
+		return service.send(id);
+	}
 }

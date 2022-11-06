@@ -22,10 +22,12 @@ public class CandidatDaoJdbc implements CandidatDao {
 
 	@Override
 	public Candidat select(int id) {
-		String data[][] = db.select(tablename, "id", id);
-
-		if (data != null && data.length > 1) {
-             return CandidatMapper.getCandidat(data[1]);
+		String data[][] = db.select(tablename, "idC", id);
+		for(int i=0;i<data[0].length;i++) {
+			System.out.println(data[0].toString());
+		}
+		if (data != null && data.length >= 1) {
+             return CandidatMapper.getCandidat(data[0]);
 		}
 
 		return null;

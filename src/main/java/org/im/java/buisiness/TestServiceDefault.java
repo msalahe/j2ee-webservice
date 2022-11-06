@@ -30,7 +30,6 @@ public class TestServiceDefault implements TestService {
 
 	@Override
 	public List<Candidat> getAllCondidat() {
-		// TODO Auto-generated method stub
 		return candidatDao.listAll();
 	}
 
@@ -48,8 +47,8 @@ public class TestServiceDefault implements TestService {
 
 	@Override
 	public List<Test> getAllTest() {
-		// TODO Auto-generated method stub
-		return testDao.listAll();
+       List<Test> test = testDao.listAll();
+		return test;
 	}
 
 	@Override
@@ -74,7 +73,18 @@ public class TestServiceDefault implements TestService {
 			 max--;
 
 		}
-		return quizFinal;
+		return quizTrier;
+	}
+
+	@Override
+	public void add(String data) {
+		quizDao.add(data);
+	}
+
+	@Override
+	public String send(int id) {
+		// TODO Auto-generated method stub
+		return quizDao.send(id);
 	}
 
 }

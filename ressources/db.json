@@ -1,652 +1,404 @@
 {
-    "Calcul_Mentale":
-    [
-              {
-              "id":1,
-              "exercice":"371.7?738.9 ~ ?",
-              "choix1":"0.4",
-              "choix2":"0.5",
-              "choix3":"0.6",
-              "choix4":"0.8",
-              "resp":"0.5",
-              "description":" 0.5 ? 371.7?738.9 ~ 370?740 ~ 0.5"
-  
-             },
-             {
-              "id":2,
-              "exercice":"0.04 / 10 = ?",
-              "choix1":"0.4",
-              "choix2":"0.04",
-              "choix3":"0.004",
-              "choix4":"0.0004",
-              "resp":"0.004",
-              "description":"0.004 ? On decale la virgule de 1 rang vers la gauche"
-             }, 
-             {
-                 "id":3,
-              "exercice":"0.15 x 0.1 = ?",
-              "choix1":"1.5",
-              "choix2":"0.015",
-              "choix3":"0.0015",
-              "choix4":"0.00015", 
-              "resp":"0.015",
-              "description":"0.015 ? On decale la virgule de 1 rang vers la gauche"
-             },
-             {
-              "id":4,
-              "exercice":"6 792?1.12 ~ ?",
-              "choix1":"6",
-              "choix2":"100",
-              "choix3":"6000",
-              "choix4":"7000",
-              "resp":"6000",
-              "description":"6 000 ? 6 792?1.12 ~ 6 800?1.1 ~ 6 000"
-             },
-             {
-              "id":5,
-              "exercice":"2 932 x 512 ~ ?",
-              "choix1":"9000",
-              "choix2":"15000",
-              "choix3":"150000",
-              "choix4":"1500000",
-              "resp":"1500000",
-              "description":"1 500 000 ? 2 932 x 512 ~ 3 000 x 500 ~ 1 500 000"
-             },
-             {
-              "id":6,
-              "exercice":"17.7 x 8.2?4.1 x 1.9 ~ ?",
-              "choix1":"180",
-              "choix2":"1.8",
-              "choix3":"18",
-              "choix4":"2.8",
-              "resp":"18",
-              "description":"18 ? 17.7 x 8.2?4.1 x 1.9 ~ 18 x 8?4 x 2 ~ 18"
-             },
-             {
-               "id":7,
-              "exercice":"20.061?12.173 ~ ?",
-              "choix1":"1.5",
-              "choix2":"1.3",
-              "choix3":"1.7",
-              "choix4":"1.9",
-              "resp":"1.7",
-              "description":"1.7 ? 20.061?12.173 ~ 20?12 ~ 5?3 ~ 1.7"
-             },
-             {
-              "id":8,
-              "exercice":"5 x 3.8 = ?",
-              "choix1":"20.4",
-              "choix2":"18.8",
-              "choix3":"19.0",
-              "choix4":"17.4",
-              "resp":"19.0",
-              "description":"19.0 ? 5 x 3.8 = 5 x (4 - 0.2) = 20 - 1 = 19"
-             },
-             {
-                "id":9,
-              "exercice":"3 x 6.1 = ?",
-              "choix1":"18.3",
-              "choix2":"18.6",
-              "choix3":"24.6",
-              "choix4":"18.1",
-              "resp":"18.3",
-              "description":"18.3 ? 3 x 6.1 = 3 x (6 + 0.1) = 18 + 0.3 = 18.3"
-             },
-             {
-              "id":10,
-              "exercice":"16.47 / 100 = ?",
-              "choix1":"0.1647",
-              "choix2":"164.7",
-              "choix3":"1.647",
-              "choix4":"1647",
-              "resp":"0.1647",
-              "description":"0.1647 ? On decale la virgule de 2 rangs vers la gauche"
-             },
-             {
-              "id":11,
-              "exercice":"209 x 50 = ?",
-              "choix1":"1 045",
-              "choix2":"1 090",
-              "choix3":"10 900",
-              "choix4":"10 450",
-              "resp":"1",
-              "description":"0.1647 ? On decale la virgule de 2 rangs vers la gauche"
-             },
-             {
-              "id":12,
-              "exercice":"488 x 101 = ?",
-              "choix1":"49 288",
-              "choix2":"49 200",
-              "choix3":"49 288",
-              "choix4":"1647",
-              "resp":"49 288",
-              "description":"49 288 -> 488 x 101 = 488 x (100 + 1) = 48 800 + 488 = 49 288"
-             },
-             {
-              "id":13,
-              "exercice":"46 x 0.25 = ?",
-              "choix1":"92.5",
-              "choix2":"102.5",
-              "choix3":"10.5",
-              "choix4":"11.5",
-              "resp":"11.5",
-              "description":"11.5 -> 46 x 0.25 = 46 / 4 = 46 / 2 / 2 = 23 / 2 = 11.5"
-             },
-             {
-              "id":14,
-              "exercice":"4.3 + 23 + 1.7 + 77 = ?",
-              "choix1":"106.0",
-              "choix2":"108.0",
-              "choix3":"110.8",
-              "choix4":"111",
-              "resp":"106.0",
-              "description":"106.0 -> 4.3 + 23 + 1.7 + 77 = 4.3 + 1.7 + 23 + 77 = 6 + 100 = 106"
-             },
-             {
-              "id":15,
-              "exercice":"12 + 5 x (9 - 8 - 1) = ?",
-              "choix1":"12",
-              "choix2":"15",
-              "choix3":"23",
-              "choix4":"90",
-              "resp":"12",
-              "description":"12 -> 12 + 5 x (9 - 8 - 1) = 12 + 5 x 0 = 12"
-             },
-             {
-              "id":16,
-             
-              "exercice":"67 x 2.5 = ?",
-              "choix1":"147.5",
-              "choix2":"167.5",
-              "choix3":"187.5",
-              "choix4":"189.3",
-              "resp":"167.5",
-              "description":"167.5 -> 67 x 2.5 = 67 x 10 / 4 = 670 / 4 = 670 / 2 / 2 = 335 / 2 = 167.5"
-             },
-             {
-              "id":17,
-              "exercice":"12 400 / 50 = ?",
-              "choix1":"124",
-              "choix2":"248",
-              "choix3":"1.647",
-              "choix4":"1647",
-              "resp":"248",
-              "description":"248 -> 12 400 / 50 = 12 400 / 100 x 2 = 124 x 2 = 248"
-             },
-             {
-              "id":18,
-              "exercice":"16.47 / 100 = ?",
-              "choix1":"247.5",
-              "choix2":"249",
-              "choix3":"248",
-              "choix4":"1647",
-              "resp":"248",
-              "description":"248 -> 12 400 / 50 = 12 400 / 100 x 2 = 124 x 2 = 248"
-             },
-             {
-              "id":19,
-              "exercice":"166 x 101 = ?",
-              "choix1":"166 166",
-              "choix2":"1 826",
-              "choix3":"1 661",
-              "choix4":"16 766",
-              "resp":"16 766",
-              "description":"16 766 -> 166 x 101 = 166 x (100 + 1) = 16 600 + 166 = 16 766"
-             },
-             {
-              "id":20,
-              "exercice":"44 x 99 = ?",
-              "choix1":"4 356",
-              "choix2":"4 366",
-              "choix3":"396",
-              "choix4":"3 960",
-              "resp":"4 356",
-              "description":"4 356 -> 44 x 99 = 44 x (100 - 1) = 4 400 - 44 = 4 356"
-             }
-           
-  
-    ],
-        
-      "Vocabulaire":[
-                       {
-                           "id":1,
-                           "exercice":"Quel est le synonyme de : PARODIE",
-                          "choix1":"Rire",
-                          "choix2":"Caricature",
-                          "choix3":"Preponderance",
-                          "choix4":"Diversion",
-                          "resp":"Caricature",
-                          "description":""
-                       },
-                       {
-                           "id":2,
-                           "exercice":"Quel est le synonyme de : VASTE",
-                          "choix1":"Grand",
-                          "choix2":"Rituel",
-                          "choix3":"Equidistant",
-                          "choix4":"Pittoresque",
-                          "resp":"Grand",
-                          "description":""
-                       }
-                       ,
-                       {
-                           "id":3,
-                           "exercice":"Quel est le synonyme de : COUTUME",
-                          "choix1":"Utilisation",
-                          "choix2":"Tradition",
-                          "choix3":"Desir",
-                          "choix4":"Perception",
-                          "resp":"Tradition",
-                          "description":""
-                       }
-                       ,
-                       {
-                           "id":4,
-                           "exercice":"Quel est le synonyme de : RETENUE",
-                          "choix1":"Inspection",
-                          "choix2":"Tendresse",
-                          "choix3":"Humilite",
-                          "choix4":"Attention",
-                          "resp":"Humilite",
-                          "description":""
-                       }
-                       ,
-                       {
-                           "id":5,
-                           "exercice":"Quel est le synonyme de : IRRATIONNEL",
-                          "choix1":"Absurde",
-                          "choix2":"Intransigeant",
-                          "choix3":"Perdu",
-                          "choix4":"Irremediable",
-                          "resp":"Absurde",
-                          "description":""
-                       },
-                       {
-                           "id":6,
-                           "exercice":"Quel est le synonyme de : NOTABLE",
-                          "choix1":"Ultime",
-                          "choix2":"Routinier",
-                          "choix3":"Remarquable",
-                          "choix4":"Libre",
-                          "resp":"Remarquable",
-                          "description":""
-                       },
-                       {
-                           "id":7,
-                           "exercice":"Quel est le synonyme de : PLAUSIBLE",
-                          "choix1":"Attirant",
-                          "choix2":"Credible",
-                          "choix3":"Fine",
-                          "choix4":"Ferme",
-                          "resp":"Credible",
-                          "description":""
-                       },
-                       {
-                           "id":8,
-                           "exercice":"Quel est le synonyme de : ASSIDUITE",
-                          "choix1":"Causticite",
-                          "choix2":"Intention",
-                          "choix3":"Abandon",
-                          "choix4":"Difficulte",
-                          "resp":"Intention",
-                          "description":""
-                       },
-                       {
-                           "id":9,
-                           "exercice":"Quel est le synonyme de : ANTERIEUR",
-                          "choix1":"Provenant",
-                          "choix2":"Candide",
-                          "choix3":"Direct",
-                          "choix4":"Precedent",
-                          "resp":"Precedent",
-                          "description":""
-                       },
-                       {
-                           "id":10,
-                           "exercice":"Quel est le synonyme de : AVIDE",
-                          "choix1":"Digne",
-                          "choix2":"Verite",
-                          "choix3":"Cupide",
-                          "choix4":"Vertige",
-                          "resp":"Cupide",
-                          "description":""
-                       }
-                       ,
-                       {
-                           "id":11,
-                           "exercice":"Quel est le synonyme de : CIRCONSTANCE",
-                          "choix1":"Allure",
-                          "choix2":"Experience",
-                          "choix3":"Disconvenance",
-                          "choix4":"Conjoncture",
-                          "resp":"Conjoncture",
-                          "description":"Conjoncture -> Occasion particuliere"
-                       }
-                       ,
-                       {
-                           "id":12,
-                           "exercice":"Quel est le synonyme de : APPRECIER",
-                          "choix1":"Savourer",
-                          "choix2":"Reunir",
-                          "choix3":"Comprendre",
-                          "choix4":"Regler",
-                          "resp":"Savourer",
-                          "description":"Savourer -> Deguster quelque chose"
-                       }
-                       ,
-                       {
-                           "id":13,
-                           "exercice":"Quel est le synonyme de : PRUDENCE",
-                          "choix1":"Vigilance",
-                          "choix2":"Absence",
-                          "choix3":"Amusement",
-                          "choix4":"Negligence",
-                          "resp":"Vigilance",
-                          "description":"Vigilance -> Surveillance"
-                       }
-                       ,
-                       {
-                           "id":14,
-                           "exercice":"Quel est le synonyme de : SACRILEGE",
-                          "choix1":"Conformisme",
-                          "choix2":"Rite",
-                          "choix3":"Heresie",
-                          "choix4":"Propagation",
-                          "resp":"Rite",
-                          "description":""
-                       }
-                       ,
-                       {
-                           "id":15,
-                           "exercice":"Quel est le synonyme de : COMPLICITE",
-                          "choix1":"Collusion",
-                          "choix2":"Hostilite",
-                          "choix3":"Confusion",
-                          "choix4":"Forfait",
-                          "resp":"Collusion",
-                          "description":"Collusion -> Entente entre personnes"
-                       }
-                       ,
-                       {
-                           "id":16,
-                           "exercice":"Quel est le synonyme de : AVENANT",
-                          "choix1":"Abrupt",
-                          "choix2":"Brusque",
-                          "choix3":"Affable",
-                          "choix4":"Intraitable",
-                          "resp":"Affable ",
-                          "description":"Affable -> Personne qui plait par sa bonne grace"
-                       }
-                       ,
-                       {
-                           "id":17,
-                           "exercice":"Quel est le synonyme de : DIVERGENCE",
-                          "choix1":"Concorde",
-                          "choix2":"Dissension",
-                          "choix3":"Harmonie",
-                          "choix4":"Diligence",
-                          "resp":"Dissension",
-                          "description":""
-                       }
-                       ,
-                       {
-                           "id":18,
-                           "exercice":"Quel est le synonyme de : DELETERE",
-                          "choix1":"Salubre",
-                          "choix2":"Courageux",
-                          "choix3":"Tonique",
-                          "choix4":"Sain",
-                          "resp":"Courageux",
-                          "description":""
-                       }
-                       ,
-                       {
-                           "id":19,
-                           "exercice":"Quel est le synonyme de : FRASQUE",
-                          "choix1":"Banalite",
-                          "choix2":"Conformisme",
-                          "choix3":"Incartade",
-                          "choix4":"Composition",
-                          "resp":"Incartade",
-                          "description":"Incartade -> ecart de conduite"
-                       }
-                       
-            ],
-         
-        "Priorites_operations":[
-              {
-                  "id":1,
-                  "exercice":"-2,5 x (-2) + 3 x (-0,5) =",
-                  "resp":"3.5",
-                 
-                  "description":" 3.5 -> -2,5 x (-2) + 3 x (-0,5) = +5,0 -1,5 = 3,5"
-              },
-              {
-                  "id":2,
-                  "exercice":"(5 - 3) x (5 / 2) + 1 =",
-                  "resp":"6",
-                  
-                  "description":" 6 -> (5 - 3) x (5 / 2) + 1 = 2 x 2,5 + 1 = 5 + 1 = 6"
-              },
-              {
-                  "id":3,
-                  "exercice":"- 6 - 2 x [5 / (3 - 1)] =",
-                  "resp":"-11",
-                  "description":"-11 -> - 6 - 2 x [5 / (3 - 1)] = - 6 - 2 x [5 / 2] = - 6 - 5 = -11"
-              },
-              {
-                  "id":4,
-                  "exercice":" 2 x (3 + 5)2 =",
-                  "resp":"128",
-                  "description":"128 -> 2 x (3 + 5)2 = 2 x (3 + 5) x (3 + 5) = 2 x 8 x 8 = 128"
-              },
-              {
-                  "id":5,
-                  "exercice":"10,2 - 5 x 2 x (3) puis 0 =",
-                  "resp":"0.2",
-                  "description":"0.2 -> 10,2 - 5 x 2 x (30) = 10.2 - 5 x 2 x 1 = 10,2 - 10.0 = 0,2"
-              },
-              {
-                  "id":6,
-                  "exercice":"(15 - 9) / (9 - 15) =",
-                  "resp":"-1",
-                  "description":"-1 -> (15 - 9) / (9 - 15) = 6 / (-6) = -1"
-              },
-              {
-                  "id":7,
-                  "exercice":"3 x ( 3 + 3 / 3 puis 2 ) =",
-                  "resp":"10",
-                  "description":"10 -> 3 x ( 3 + 3 / 32 ) = 3 x ( 3 + 1/3) = 9 + 1 = 10"
-              },
-              {
-                  "id":8,
-                  "exercice":"- 8 - 9 x 2 + 10 =",
-                  "resp":"-16",
-                  "description":"-16 -> - 8 - 9 x 2 + 10 = - 8 - 18 + 10 = - 16"
-              },
-              {
-                  "id":9,
-                  "exercice":"3 x [(5 / 10 + 1,5) / 2] x 3 puis 2 =",
-                  "resp":"27",
-                  "description":"27 -> 3 x [(5 / 10 + 1,5) / 2] x 32 = 3 x [(0.5 + 1,5)/2] x 3x3 = 3 x [1] x 9 = 27"
-              },
-              {
-                  "id":10,
-                  "exercice":"(5 x 2) / (9 + 3 - 2) - 5 =",
-                  "resp":"-4",
-                  "description":"-4 -> (5 x 2) / (9 + 3 - 2) - 5 = 10 / 10 - 5 = 1 - 5 = -4"
-              }
-  
-     
-  
-        ],
-        "orthographes":[
-             {
-                           "id":1,
-                           "exercice":"Le nom commun ci-dessous est-il bien orthographie? Coline",
-                          "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"non",
-                          "description":"Non -> Colline"
-                       },
-                       {
-                           "id":2,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie? Absence",
-                          "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"oui",
-                          "description":""
-                       }
-                       ,
-                       {
-                           "id":3,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Aileurs",
-                          "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"non",
-                          "description":"Non -> Ailleurs"
-                       }
-                       ,
-                       {
-                           "id":4,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Appercevoir",
-                          "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"non",
-                          "description":"Non -> Apercevoir"
-                       }
-                       ,
-                       {
-                           "id":5,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Language",
-                          "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"non",
-                          "description":"Non -> Langage"
-                       },
-                       {
-                           "id":6,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Certe",
-                         "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"non",
-                          "description":"Non -> Certes"
-                       },
-                       {
-                           "id":7,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Parallele",
-                          "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"non",
-                          "description":""
-                       },
-                       {
-                           "id":8,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Soutien",
-                           "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"oui",
-                          "description":"oui"
-                       },
-                       {
-                           "id":9,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Cauchemar",
-                           "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"oui",
-                          "description":"oui"
-                       },
-                       {
-                           "id":10,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Devellopper",
-                          "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"non",
-                          "description":"Non -> Developper"
-                       },
-                       {
-                           "id":11,
-                           "exercice":"Le nom commun ci-dessous est-il bien orthographie? Malgres",
-                          "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"non",
-                          "description":"Non -> Malgre"
-                       },
-                       {
-                           "id":12,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie? Interessant",
-                          "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"oui",
-                          "description":""
-                       }
-                       ,
-                       {
-                           "id":13,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Parmis",
-                          "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"non",
-                          "description":"Non -> Parmi"
-                       }
-                       ,
-                       {
-                           "id":14,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Vingt",
-                          "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"non",
-                          "description":""
-                       }
-                       ,
-                       {
-                           "id":15,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Milieu",
-                          "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"oui",
-                          "description":""
-                       },
-                       {
-                           "id":16,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Existance",
-                         "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"non",
-                          "description":"Non -> Existence"
-                       },
-                       {
-                           "id":17,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Connection",
-                          "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"non",
-                          "description":"Non -> Connexion"
-                       },
-                       {
-                           "id":18,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Convergeance",
-                           "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"non",
-                          "description":"Non -> Convergence"
-                       },
-                       {
-                           "id":19,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Precedent",
-                           "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"oui",
-                          "description":"oui"
-                       },
-                       {
-                           "id":20,
-                           "exercice":"Le mot ci-dessous est-il bien orthographie?: Traffic",
-                          "choix1":"oui",
-                          "choix2":"non",
-                          "resp":"non",
-                          "description":"Non -> Trafic"
-                       }
-        ]
-  
-   }
+  "Quizz": [
+    {
+      "id": 1,
+      "exercice": "Que signifie HTML ?",
+      "choix1": "HomeTabulation of Mailing List",
+      "choix2": "HyperText Markup Language",
+      "choix3": "Hyperspace TradeMark Language",
+      "choix4": " XpTdr Mdr Lol",
+      "resp": "HyperText Markup Language",
+      "description": "HyperText Markup Language (HTML)"
+    },
+    {
+      "id": 2,
+      "exercice": "À quoi sert HTML ?",
+      "choix1": "À mettre en forme des pages web",
+      "choix2": "À structurer du contenu dans une page web",
+      "choix3": "À créer des pages dynamiques",
+      "choix4": "À concurrencer Google et Facebook",
+      "resp": "À structurer du contenu dans une page web",
+      "description": "HTML est le langage de balisage conçu pour représenter les pages web. Son rôle principal est de structurer les données et donner du sens aux éléments."
+    },
+    {
+      "id": 3,
+      "exercice": "En quelle année est né HTML ?",
+      "choix1": "Dans les années 70, avec Arpanet",
+      "choix2": "Entre 1986 et 1988, avec le Club Dorothée",
+      "choix3": "En 1990 exactement, avec la naissance d'Emma Watson",
+      "choix4": "Plutôt en 1993 non ? Sous le mandat Bill Clinton",
+      "resp": "Plutôt en 1993 non ? Sous le mandat Bill Clinton",
+      "description": "La première proposition de spécification HTML date de 1993, par Tim Berners-Lee, considéré comme l'inventeur du Web."
+    },
+    {
+      "id": 4,
+      "exercice": "Qu'est ce qu'un navigateur web ?",
+      "choix1": "Un logiciel capable d'interpréter et d'afficher du code HTML",
+      "choix2": "Un outil permettant d'accéder à Internet",
+      "choix3": "Un réseau social global",
+      "choix4": "La toute première application mondiale",
+      "resp": "Un logiciel capable d'interpréter et d'afficher du code HTML",
+      "description": "Un navigateur web n'est rien d'autre qu'une application (web ou native) capable de lire et afficher du code HTML, CSS et JavaScript sur un écran."
+    },
+    {
+      "id": 5,
+      "exercice": "Comment représenter un paragraphe en HTML ?",
+      "choix1": "<ul>",
+      "choix2": "<h1>",
+      "choix3": "<p>",
+      "choix4": "<paragraph>",
+      "resp": "<p>",
+      "description": "<p> </p> pour définir un paragraphe"
+    },
+    {
+      "id": 6,
+      "exercice": "Comment représenter une liste en HTML ?",
+      "choix1": "<ul>",
+      "choix2": "<li>",
+      "choix3": "<p>",
+      "choix4": "<paragraph>",
+      "resp": "<ul>",
+      "description": "<ul> est le conteneur de liste, <li> sont les éléments (items) de la liste."
+    },
+    {
+      "id": 7,
+      "exercice": "Trouvez l'intrus dans cette liste",
+      "choix1": "<a>",
+      "choix2": "<img>",
+      "choix3": "<span>",
+      "choix4": "<div>",
+      "resp": "<img>",
+      "description": "<img> est une balise auto-fermante (il n'y a pas de </img>)"
+    },
+    {
+      "id": 8,
+      "exercice": "Citez un attribut HTML lié aux images",
+      "choix1": "src",
+      "choix2": "href",
+      "choix3": "img",
+      "choix4": "data",
+      "resp": "src",
+      "description": "src (pour source) permet à la balise <img> de faire le lien vers le chemin de l'image."
+    },
+    {
+      "id": 9,
+      "exercice": "Quel attribut permet d'indiquer la destination d'un lien ?",
+      "choix1": "href",
+      "choix2": "class",
+      "choix3": "link",
+      "choix4": "a",
+      "resp": "href",
+      "description": "href (pour hypertext reference) permet à la balise de lier vers une autre page ou un autre site web"
+    },
+    {
+      "id": 10,
+      "exercice": "À quoi servent les spécifications ARIA, liées à HTML ?",
+      "choix1": "à construire des pages web audibles et musicales",
+      "choix2": "à gérer les familles de polices sur la page web",
+      "choix3": "à rendre le contenu et les applications web accessibles",
+      "choix4": "à aider à l'internationalisation du web",
+      "resp": "à rendre le contenu et les applications web accessibles",
+      "description": "ARIA (Accessible Rich Internet Applications ) propose des fonctionnalités (attributs, rôles) permettant de faciliter l'accessibilité des pages web aux personnes en situation de handicap."
+    },
+    {
+      "id": 11,
+      "exercice": "Que signifie CSS ?",
+      "choix1": "Cascading Style Sheets",
+      "choix2": "Create Simple Samples",
+      "choix3": "C'est Super Simple !",
+      "choix4": "Choucroute et Saucisses de Strasbourg",
+      "resp": "Cascading Style Sheets",
+      "description": "CSS est l'abréviation de Cascading Style Sheets (Feuilles de Style en Cascade)."
+    },
+    {
+      "id": 12,
+      "exercice": "À quoi sert le langage CSS ?",
+      "choix1": "À réaliser des pages dynamiques",
+      "choix2": "À ajouter du style aux documents web",
+      "choix3": "À insérer du contenu dans une page internet",
+      "choix4": "À simuler une application en mode avion durant les trajets dans un bus",
+      "resp": "À ajouter du style aux documents web",
+      "description": "Le CSS est un langage simple qui sert à styler (polices, couleurs, positions, dimensions ...) les documents internet."
+    },
+    {
+      "id": 13,
+      "exercice": "Pourquoi utilise-t-on généralement du CSS ?",
+      "choix1": "Pour séparer le contenu et la présentation des documents web",
+      "choix2": "Pour se compliquer la vie bien sûr",
+      "choix3": "Cela permet de faire de plus jolis dégradés de couleurs",
+      "choix4": "Parce que c'est plus simple à comprendre que JavaScript",
+      "resp": "Pour séparer le contenu et la présentation des documents web",
+      "description": "Le CSS est généralement utilisé pour séparer le contenu (HTML, XHTML, XML) de sa mise en forme. Cela permet une maintenance simplifiée selon qu'il faille en modifier son aspect ou son contenu."
+    },
+    {
+      "id": 14,
+      "exercice": "Où est-il conseillé de placer le code CSS ?",
+      "choix1": "Dans le <body>, c'te question",
+      "choix2": "Entre les balises <head>, c'est bien plus propre",
+      "choix3": "Dans un fichier externe utilisable pour plusieurs pages",
+      "choix4": "Dans un fichier JavaScript",
+      "resp": "Dans un fichier externe utilisable pour plusieurs pages",
+      "description": "Bien que les 4 possibilités évoquées soient possibles, il est vivement déconseillé de placer le code CSS à l'intérieur du HTML dans le body. Quitte à l'inclure dans le fichier internet, il est plus intéressant de le placer dans les balises head."
+    },
+    {
+      "id": 15,
+      "exercice": "Dans quoi définit-on les déclarations CSS ?",
+      "choix1": "Entre deux crochets séparées par des tirets [ ... - ... ]",
+      "choix2": "Entre deux guillemets séparées par des slashs ... / ...",
+      "choix3": "Entre deux accolades séparés par des points-virgules { ... ; ... }",
+      "choix4": "Dans un fichier texte de type .doc ou docx",
+      "resp": "Entre deux accolades séparés par des points-virgules { ... ; ... }",
+      "description": "Un bloc de déclarations CSS est délimitée par des accolades. En son sein, chaque déclaration (couple propriété : valeur) est ponctuée par un point-virgule."
+    },
+    {
+      "id": 16,
+      "exercice": "Dans la règle suivante, quel élément deviendra rouge ? strong#intro {background-color: red;}",
+      "choix1": "L'élément dont l'id est intro et qui est contenu dans un élément <strong>",
+      "choix2": "L'élément <strong> dont l'id est intro",
+      "choix3": "Tous les éléments <strong> contenus dans un élément dont l'id est intro",
+      "choix4": "Tous les éléments <strong> et les éléments dont l'id est intro",
+      "resp": "L'élément <strong> dont l'id est intro",
+      "description": "Puisqu'il n'y a pas d'espace entre strong et #intro, cela signifie qu'il s'agit du même élément. Il n'y a pas de notion de contenant et de contenu ici. La règle s'applique à un seul élément : l'élément <strong> dont l'id est intro."
+    },
+    {
+      "id": 17,
+      "exercice": "Pourquoi est-il d'usage de sauter une ligne entre chaque déclaration ?",
+      "choix1": "Pour rien du tout",
+      "choix2": "Pour que le code soit bien interprété par les navigateurs",
+      "choix3": "Pour rendre le code plus lisible et la maintenance plus facile",
+      "choix4": "Pour faciliter les échanges de styles entre deux fichiers (je raconte n'importe quoi là)",
+      "resp": "Pour rendre le code plus lisible et la maintenance plus facile",
+      "description": "Il n'est pas nécessaire de sauter des ligne ou d'indenter votre code."
+    },
+    {
+      "id": 18,
+      "exercice": "Quel élément sépare la propriété de sa valeur ?",
+      "choix1": "Le signe espace ( )",
+      "choix2": "Le signe égal (=)",
+      "choix3": "Le signe deux points (:)",
+      "choix4": "Le signe point-virgule (;)",
+      "resp": "Le signe deux points (:)",
+      "description": "La propriété font-size est séparée de sa valeur (exprimée ici en unité variable -em) par deux points"
+    },
+    {
+      "id": 19,
+      "exercice": "À quoi sert le sélecteur de classe : h2.nomDeClasse ?",
+      "choix1": "Ah bon ... C'est censé servir à quelque chose ?",
+      "choix2": "À définir différentes propriétés pour l'élément <h2> dont la classe est nomDeClasse",
+      "choix3": "À créer une ancre sur la balise <h2>",
+      "choix4": "À ajouter un peu de classe à notre code parfois un peu tristounet",
+      "resp": "À définir différentes propriétés pour l'élément <h2> dont la classe est nomDeClasse",
+      "description": "Le sélecteur de classe different permet de modifier l'apparence des titres de niveau 2 dont la class est different et uniquement ceux possédant cette classe"
+    },
+    {
+      "id": 20,
+      "exercice": "Combien de règles peut contenir un fichier CSS ?",
+      "choix1": "Il n'y a pas de limite, on peut en créer autant que l'on veut",
+      "choix2": "Si le poids du fichier n'excède pas 20Ko, c'est tout bon",
+      "choix3": "150 à plus ou moins 10%",
+      "choix4": "Cela dépend des navigateurs",
+      "resp": "",
+      "description": "Un fichier CSS n'est limité ni par son poids, ni par le nombre de ses règles. Vous pouvez donc coder de gros fichiers. Mais pensez, quand même à les optimiser ce n'est pas la peine non plus de tenter le Guiness Book du plus long fichier CSS !"
+    },
+    {
+      "id": 21,
+      "exercice": "Quel est le rapport entre Java et JavaScript ?",
+      "choix1": "C'est le même langage, mais le nom  JavaScript  est utilisé pour le code s'exécutant dans une page Web.",
+      "choix2": "Ce sont deux langages différents, malgré quelques points communs dans la syntaxe.",
+      "choix3": "Java est une version améliorée de JavaScript.",
+      "choix4": "Java est une île, ça n'a rien à voir !",
+      "resp": "Ce sont deux langages différents, malgré quelques points communs dans la syntaxe.",
+      "description": "Le nom  JavaScript  a été choisi en raison des similitudes de syntaxe, et aussi (surtout ?) parce que le nom  Java  était à la mode."
+    },
+    {
+      "id": 22,
+      "exercice": "Laquelle de ces syntaxes est correcte ?",
+      "choix1": "if (a != 2) {}",
+      "choix2": "if a != 2 {}",
+      "choix3": "if (a <> 2) {}",
+      "choix4": "if a <> 2 {}",
+      "resp": "if (a != 2) {}",
+      "description": "La condition d'un if doit toujours être entourée de parenthèses. L'opérateur différent de s'écrit != en JavaScript."
+    },
+    {
+      "id": 23,
+      "exercice": "Quel attribut des noeuds de l'arbre DOM correspond à l'attribut HTML class ?",
+      "choix1": "class",
+      "choix2": "CLASS",
+      "choix3": "className",
+      "choix4": "listClass",
+      "resp": "className",
+      "description": "Il n'a pas été possible d'utiliser class dans le DOM car c'est un mot-clé réservé pour les futures versions de la spécification ECMAScript."
+    },
+    {
+      "id": 24,
+      "exercice": "Dans un fichier JavaScript externe (.js), il faut :",
+      "choix1": "entourer le code avec les balises <script> et </script>.",
+      "choix2": "préciser l’encodage du fichier avec la règle @charset.",
+      "choix3": "échapper les caractères spéciaux (X)HTML.",
+      "choix4": "Aucune des réponses précédentes.",
+      "resp": "Aucune des réponses précédentes.",
+      "description": "L’un des avantages du fait d’utiliser un fichier externe est justement de s’affranchir des problèmes d’inclusion du code JavaScript dans une page (X)HTML. On n’a donc pas à utiliser les balises <script> et </script>, et les caractères spéciaux (X)HTML n’ont pas à être échappés. Quant à l’encodage, il doit être déclaré dans l’en-tête HTTP Content-Type."
+    },
+    {
+      "id": 25,
+      "exercice": "Lequel de ces types d'événements n'existe pas ?",
+      "choix1": "blur",
+      "choix2": "load",
+      "choix3": "mouseclick",
+      "choix4": "mouseout",
+      "resp": "mouseclick",
+      "description": "Il faut utiliser click, qui a d'ailleurs l'avantage de se déclencher aussi avec l'activation par le clavier."
+    },
+    {
+      "id": 26,
+      "exercice": "Quelle méthode n'existe pas dans le DOM ?",
+      "choix1": "document.getElementsByClassName",
+      "choix2": "document.getElementsByTagName",
+      "choix3": "document.getElementsByAttribute",
+      "choix4": "document.getElementById",
+      "resp": "document.getElementsByAttribute",
+      "description": "On peut rechercher les éléments par classe, id, nom de balise (tag)."
+    },
+    {
+      "id": 27,
+      "exercice": "Laquelle de ces propositions est un nom de variable valide en JavaScript ?",
+      "choix1": "var",
+      "choix2": "$b",
+      "choix3": "NaN",
+      "choix4": "default",
+      "resp": "$b",
+      "description": "var est un mot-clé ; 2a n'est pas valide car un identifiant ne peut pas commencer par un chiffre ; int est un mot-clé réservé pour les futures versions de la spécification ECMAScript."
+    },
+    {
+      "id": 28,
+      "exercice": "Dans une boucle, l'instruction continue permet de :",
+      "choix1": "continuer l'exécution du code après la boucle.",
+      "choix2": "passer à l'itération suivante.",
+      "choix3": "revenir au début de l'itération courante.",
+      "choix4": "supprimer toutes les variables globales.",
+      "resp": "passer à l'itération suivante.",
+      "description": "Il est à noter que cette instruction peut être associée à un label, comme expliqué dans la documentation de Mozilla."
+    },
+    {
+      "id": 29,
+      "exercice": "var iNum = 12; iNum %= 2; A la suite de cette expression, combien vaut iNum ?",
+      "choix1": "6",
+      "choix2": "14",
+      "choix3": "0.12",
+      "choix4": "0",
+      "resp": "0",
+      "description": "Le modulo suivi de l'affectation divise la variable iNum par 2 puis affecte le reste de la division à iNum, soit zéro."
+    },
+    {
+      "id": 30,
+      "exercice": "Quelle méthode permet de comparer deux chaînes texte ?",
+      "choix1": "charAt()",
+      "choix2": "charCodeAt()",
+      "choix3": "indexOf()",
+      "choix4": "localeCompare()",
+      "resp": "localeCompare()",
+      "description": "localeCompare()"
+    },
+    {
+      "id": 31,
+      "exercice": "Que signifie PHP ?",
+      "choix1": "Page Helper Process",
+      "choix2": "Programming Home Pages",
+      "choix3": "PHP: Hypertext Preprocessor",
+      "choix4": "Papa Hyper Paranoiaque",
+      "resp": "PHP: Hypertext Preprocessor",
+      "description": "PHP est un acronyme récursif pour PHP: Hypertext Preprocessor"
+    },
+    {
+      "id": 32,
+      "exercice": "Quelle fonction retourne la longueur d'une chaîne de texte ?",
+      "choix1": "strlen",
+      "choix2": "strlength",
+      "choix3": "length",
+      "choix4": "substr",
+      "resp": "strlen",
+      "description": "strlen() Calcule la taille d'une chaîne de texte. substr() remplace une sous-chaîne dans une chaîne de texte. Les autres fonctions n'existent pas."
+    },
+    {
+      "id": 33,
+      "exercice": "Comment accède-t-on au 1er élément chaton dans le tableau suivant : $tableau = Array('chaton' , 'ornithorynque', 'dauphin'); ?",
+      "choix1": "$tableau[1]",
+      "choix2": "$tableau[0]",
+      "choix3": "$tableau{0}",
+      "choix4": "$tableau.get(1)",
+      "resp": "$tableau[0]",
+      "description": "La notation à crcohet est utilisée pour accéder (en lecture ou en écriture) à un élément de tableau. Par défaut, le premier indice est toujours 0."
+    },
+    {
+      "id": 34,
+      "exercice": "Comment vérifie-t-on l'égalité de deux variables : $a et $b ?",
+      "choix1": "$a = $b",
+      "choix2": "$a == $b",
+      "choix3": "$a != $b",
+      "choix4": "if($a,$b)",
+      "resp": "$a == $b",
+      "description": "Nota : L'opérateur === sert à comparer deux variables, à vérifier leur égalité à s'assurer qu'elles soient de même type."
+    },
+    {
+      "id": 35,
+      "exercice": "Quelle est l'utilité de l'opérateur || ?",
+      "choix1": "Il sert à vérifier que toutes les conditions sont réalisées.",
+      "choix2": "Il sert à vérifier qu'une, et une seule, des conditions est réalisée.",
+      "choix3": "Il sert à vérifier qu'une, au moins, des conditions est réalisée.",
+      "choix4": "Il sert à vérifier qu'aucune, des conditions est réalisée.",
+      "resp": "Il sert à vérifier qu'une, au moins, des conditions est réalisée.",
+      "description": "L'opérateur || (ou or) sert à vérifier qu'une condition au moins est réalisée."
+    },
+    {
+      "id": 36,
+      "exercice": "Quelles valeurs peut prendre le type booléen ?",
+      "choix1": "0 ou 1",
+      "choix2": "TRUE ou FALSE",
+      "choix3": "Toutes sauf NULL",
+      "choix4": "42",
+      "resp": "TRUE ou FALSE",
+      "description": "Le type booléen n'accepte que les valeurs TRUE ou FALSE. Toute variable peut être testée en tant que booléen, PHP se charge automatiquement de faire la conversion."
+    },
+    {
+      "id": 37,
+      "exercice": "La boucle for ($i=0 ; $i<=3 ; $i++ ) { echo $i; }...",
+      "choix1": "Sera éxécutée 2 fois",
+      "choix2": "Sera éxécutée 3 fois",
+      "choix3": "Sera éxécutée 4 fois",
+      "choix4": "Sera éxécutée 5 fois",
+      "resp": "Sera éxécutée 4 fois",
+      "description": " 3 autorisé par l'opérateur <= inférieur ou égal (4ème éxécution)."
+    },
+    {
+      "id": 38,
+      "exercice": "Sachant que $a = 4. Quelle instruction affiche : 4 = quatre ?",
+      "choix1": "echo '$a = quatre';",
+      "choix2": "echo '$a = 2+2';",
+      "choix3": "echo ''$a = quatre''",
+      "choix4": "echo ($a = quatre)",
+      "resp": "echo ''$a = quatre''",
+      "description": "Une variable présente à l'intérieur de guillemets doubles sera évaluée et se verra remplacée par sa valeur. A l'inverse, une variable présente à l'intérieur de guillemets simples sera interprétée comme étant une chaine de caractères."
+    },
+    {
+      "id": 39,
+      "exercice": "Sachant que $dodo = 6. Quelle est la valeur de ma nuit : $dodo += 2; ?",
+      "choix1": "3",
+      "choix2": "8",
+      "choix3": "12",
+      "choix4": "42",
+      "resp": "8",
+      "description": "L'opérateur combiné += permet d'incrémenter la valeur d'une variable de la valeur indiquée après l'opérateur. Elle est équivalente à l'instruction : $dodo = $dodo + 2;"
+    },
+    {
+      "id": 40,
+      "exercice": "Dans le cas d'envoi d'informations plus ou moins sensibles par formulaire, quelle méthode utilisera-t-on de préférence ?",
+      "choix1": "get",
+      "choix2": "mailto",
+      "choix3": "post",
+      "choix4": "send",
+      "resp": "post",
+      "description": "La méthode POST est une méthode plus sûre que get pour envoyer des données car celles-ci sont transmises dans le corps de la requête."
+    }
+  ]
+}

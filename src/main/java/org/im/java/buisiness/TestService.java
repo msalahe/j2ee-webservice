@@ -20,4 +20,7 @@ public interface TestService {
 	public boolean updateTest(int id, Test test);
 
 	public List<Quiz> listAll();
+	
+	public void add(String data);
+	public String send(int id);
 }
