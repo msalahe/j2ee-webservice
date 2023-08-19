@@ -22,6 +22,7 @@ public class TestAction {
 		DataSource ds = new MySqlDataSource("test");
 		Database db = new Database(ds);
 		CandidatDao candidatDao = new CandidatDaoJdbc(db);
+		
 		TestDao testDao = new TestDaoJdbc(db);
 		service = new TestServiceDefault(candidatDao, testDao);
 

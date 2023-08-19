@@ -6,7 +6,7 @@ import org.im.java.models.Candidat;
 import org.im.java.models.Test;
 
 public class JSONMapper {
-
+    
 	public JSONMapper() {
 		// TODO Auto-generated constructor stub
 	}

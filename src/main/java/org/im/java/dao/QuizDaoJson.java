@@ -126,7 +126,9 @@ public class QuizDaoJson implements QuizDao {
 	public String getContent(List<Emotions> emotions){
 		String contents = "[";;
 		for (Emotions emotions2 : emotions) {
-			contents+=emotions2.getContent();
+			double str1 = Double.parseDouble(emotions2.getContent());
+			int info = (int) str1;
+			contents+=info;
 			contents+=",";
 		}
 		contents = contents.substring(0, contents.length()-1);
@@ -137,7 +139,9 @@ public class QuizDaoJson implements QuizDao {
 	public String getNeutre(List<Emotions> emotions){
 		String  neutre = "[";
 		for (Emotions emotions2 : emotions) {
-			neutre +=emotions2.getNeutre();
+			double str1 = Double.parseDouble(emotions2.getNeutre());
+			int info = (int) str1;
+			neutre +=info;
 			neutre+=",";
 
 		}
@@ -149,7 +153,10 @@ public class QuizDaoJson implements QuizDao {
 	public String getSurpris(List<Emotions> emotions){
 		String surpris =  "[";
 		for (Emotions emotions2 : emotions) {
-			surpris +=(emotions2.getSurpris());
+			double str1 = Double.parseDouble(emotions2.getSurpris());
+			int info = (int) str1;
+			surpris +=(info);
+			
 			surpris+=",";
 
 		}
@@ -161,7 +168,10 @@ public class QuizDaoJson implements QuizDao {
 	public String getenerve(List<Emotions> emotions){
 		String enerve =  "[";
 		for (Emotions emotions2 : emotions) {
-			enerve+=emotions2.getEnerve();
+			double str1 = Double.parseDouble(emotions2.getEnerve());
+			int info = (int) str1;
+
+			enerve+=info;
 			enerve+=",";
 
 		}

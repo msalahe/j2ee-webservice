@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.im.java.dao.CandidatDao;
+import org.im.java.dao.CandidatDaoJdbc;
+import org.im.java.dao.CandidatDaoOracle;
 import org.im.java.dao.QuizDao;
 import org.im.java.dao.QuizDaoJson;
 import org.im.java.dao.TestDao;
